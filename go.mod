@@ -2,4 +2,7 @@ module Learn-rabbitMQ
 
 go 1.22.5
 
-require github.com/rabbitmq/amqp091-go v1.10.0 // indirect
+require (
+	github.com/rabbitmq/amqp091-go v1.10.0
+	golang.org/x/sync v0.9.0
+)
